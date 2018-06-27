@@ -1,0 +1,51 @@
+{
+  "user": {
+    "attributes": {
+      "username": {
+        "type": "string",
+        "label": "Username",
+        "description": ""
+      },
+      "email": {
+        "type": "email",
+        "label": "Email",
+        "description": ""
+      },
+      "provider": {
+        "type": "string",
+        "label": "Provider",
+        "description": ""
+      },
+      "password": {
+        "type": "password",
+        "label": "Password",
+        "description": ""
+      },
+      "resetPasswordToken": {
+        "type": "string",
+        "label": "ResetPasswordToken",
+        "description": ""
+      }
+    },
+    "listDisplay": [
+      {
+        "type": "string",
+        "label": "Username",
+        "description": "",
+        "name": "username"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "description": "",
+        "name": "email"
+      },
+      {
+        "type": "string",
+        "label": "Provider",
+        "description": "",
+        "name": "provider"
+      }
+    ]
+  }
+}
